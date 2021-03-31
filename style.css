@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 590px;
+    background-color:#040032 ;
+}
+.HowCan{
+    margin-top: -5px;
+    height: 225px;
+    background-color: #100B41;
+}
+nav{
+    padding:20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav h4{
+    color: white;
+    font-weight: 600;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-item li{
+    margin: 0 15px;
+    font-weight: 400;
+}
+.nav-icons li{
+    margin: 0 5px;
+}
+.nav-item li a:hover{
+    color: #01C36A;
+    border-bottom: 1px solid #01C36A;
+}
+.header-sec{
+    margin-top: 80px !important;
+}
+.WelJoin{
+    color: white;
+}
+.WelJoin h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.WelJoin h1 span{
+    color:#01C36A ;
+}
+.WelJoin button{
+    width:140px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #01C36A;
+    background: none;
+    font-weight: 400;
+}
+.WelJoin button a{
+    text-decoration: none;
+    color: #01C36A;
+}
+.WelJoin button:hover{
+    background-color:#01C36A ;
+    color: white;
+}
+.WelJoin button a:hover{
+    color: white;
+}
+#h-img{
+    width: 600px;
+}
+.HowCan-1 h2{
+    color: white;
+    font-weight: 400;
+}
+.HowCan-1 p{
+    color: rgba(255, 255, 255, 0.514);
+}
+.HowCan-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.HowCan-2 .HowBox{
+    margin: 20px;
+}
+.HowBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.HowBox i{
+    color:#01C36A ;
+    font-size: 35px;
+    margin: 10px;
+}
+.HowBox p{
+    color: white;
+    text-align: center;
+}
+
+/* card */
+
+
+.containercard
+{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.containercard .cardd
+{
+    position: relative;
+}
+.containercard .cardd .facce
+{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+.containercard .cardd .facce.facce1
+{
+    position: relative;
+    background:  rgb(16, 4, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(110px);
+
+}
+.containercard .cardd:hover .facce.facce1
+{
+    background: #01C36A;
+    transform: translateY(0px);
+
+}
+.containercard .cardd .facce.facce1 .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.2;
+    transform: 0.5s;
+}
+.containercard .cardd:hover .facce.facce1 .content
+
+{
+    opacity: 1;
+}
+.containercard .cardd .facce.facce1 .content img
+{
+    max-width: 100px;
+}
+.containercard .cardd .facce.facce1 .content h3
+{
+    margin: 10px 0 0;
+    padding: 0;
+    color:#f6faf8;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+
+.containercard .cardd .facce.facce2
+{
+    position: relative;
+    background: rgb(16, 4, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.8); */
+    transform: translateY(-100px);
+
+}
+.containercard .cardd:hover .facce.facce2
+{
+    transform: translateY(0);
+
+}
+.containercard .cardd .facce.facce2 .content p
+{
+    margin: 0;
+    padding: 0;
+
+}
+.containercard .cardd .facce.facce2 .content h3
+{
+    color: #01C36A;
+}
+.containercard .cardd .facce.facce2 .content a
+{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color:#01C36A;
+    padding: 5px;
+    border: 2px solid #01C36A;
+}
+.containercard .cardd .facce.facce2 .content a:hover
+{
+    background:  #01C36A;
+    color: white;
+}
+.facce h5{
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+
